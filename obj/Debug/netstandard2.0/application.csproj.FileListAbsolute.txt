@@ -1,0 +1,16 @@
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\application.csprojAssemblyReference.cache
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\application.AssemblyInfoInputs.cache
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\application.AssemblyInfo.cs
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\application.csproj.CoreCompileInputs.cache
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\application.dll
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\ref\application.dll
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\application.pdb
+C:\Users\prich\source\repos\application\application\bin\Debug\netstandard2.0\application.deps.json
+C:\Users\prich\source\repos\application\application\bin\Debug\netstandard2.0\application.dll
+C:\Users\prich\source\repos\application\application\bin\Debug\netstandard2.0\ref\application.dll
+C:\Users\prich\source\repos\application\application\bin\Debug\netstandard2.0\application.pdb
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\prich\source\repos\application\application\obj\Debug\netstandard2.0\Synopsis.xaml.g.cs

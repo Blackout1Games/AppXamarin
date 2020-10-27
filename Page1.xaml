@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="false" 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="application.Page1"
+             BackgroundImageSource="https://nsa40.casimages.com/img/2020/10/24/201024094851792135.jpg">
+
+
+    <ScrollView>
+        
+        <StackLayout>
+
+        <Label FontSize="10"/>
+
+            <Label Text="BIENVENUE" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label x:Name="entretext1"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold" x:Name="effect2Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center" />
+
+            <Label x:Name="entretext2"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        
+        <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold" x:Name="effect3Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="entretext3"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        
+        <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold" x:Name="effect4Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="entretext4"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        
+        <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold" x:Name="effect5Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="entretext5"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        
+        <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold" x:Name="effect6Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="entretext6"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold" x:Name="effect7Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="entretext7"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=X,Factor=0}"
+                   RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView,ElementName=btnEffect1,Property=Y,Factor=0,Constant=280}"
+                   RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                   TextColor="White" FontAttributes="Bold"  x:Name="effect8Label" LineBreakMode="NoWrap" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Faites votre choix" 
+               TextColor="White" 
+               FontAttributes="Italic" 
+               x:Name="choix1" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label x:Name="entretext9"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+        <Button x:Name="lavoiture"
+            Text="La voiture"
+            WidthRequest="200"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="#2196F3"
+            BackgroundColor="White"
+            CornerRadius="7"/>
+
+            <Button x:Name="lachose"
+            Text="La chose"
+            WidthRequest="200"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="#2196F3"
+            BackgroundColor="White"
+            CornerRadius="7"/>
+
+            <Label x:Name="entretext10"
+            Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        
+    </StackLayout>
+
+    </ScrollView>
+</ContentPage>

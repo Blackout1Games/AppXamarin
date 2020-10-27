@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="false"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="application.Synopsis"
+             BackgroundImageSource="https://nsa40.casimages.com/img/2020/10/24/201024094851792135.jpg">
+
+        <StackLayout>
+
+            <Label FontSize="10"/>
+
+            <Label Text="SYNOPSIS :" 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label Text="Après une soirée bien arrosée et malgré les nombreuses invitations de vos amis, vous décidez quand même de rentrer chez vous en voiture." 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label Text="La route est brumeuse, il pleut et les arbres ne font qu'accentuer la noirceur de la nuit." 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label Text="C'est alors que de la forêt surgit une silhouette qui s'écrase contre le capot, 
+vous décidez de vous arrêter et d'aller voir comment va la chose." 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+
+            <Label Text="Le constat est sans appel," 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="il s'agit bien d'un homme et... il est mort." 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label Text="Comment allez-vous vous en sortir ?" 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="Découvrez-le dans cette histoire incroyable !" 
+               FontSize="18" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+            <Label Text="-------------------------------------------------------------------------------------" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+
+            <Label FontSize="5"/>
+
+            <Button x:Name="PLAY"
+            Text="Play"
+            WidthRequest="200"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="#2196F3"
+            BackgroundColor="White"
+            CornerRadius="7"
+            Clicked="PLAY_Clicked"/>
+
+        </StackLayout>
+</ContentPage>

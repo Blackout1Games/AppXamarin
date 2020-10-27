@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="false"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="application.MainPage"
+             BackgroundImageSource="https://nsa40.casimages.com/img/2020/10/24/201024094232197402.png">
+
+    <StackLayout>
+
+        <Label FontSize="15" />
+
+        <Label Text="----------------------------" 
+               FontSize="25" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"/>
+
+        <Label Text="CRIME ROAD" 
+               FontSize="30" 
+               TextColor="White"
+               VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold"/>
+
+        <Label Text="----------------------------" 
+               FontSize="25" 
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"/>
+
+
+        <Label FontSize="235" />
+
+
+        <Button x:Name="NewGame"
+            Text="New Game"
+            WidthRequest="200"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="#2196F3"
+            BackgroundColor="White"
+            CornerRadius="7"
+            Clicked="NewGame_Clicked"/>
+
+        <Button x:Name="BuyPremium"
+            Text="Buy Premium"
+            WidthRequest="200"
+            FontAttributes="Bold"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            TextColor="#2196F3"
+            BackgroundColor="White"
+            CornerRadius="7"/>
+
+    </StackLayout>
+
+</ContentPage>
